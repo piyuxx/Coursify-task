@@ -1,0 +1,27 @@
+/* SuccessStories.css */
+.scroll-container {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  
+  .scroll-content {
+    display: inline-flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .story-box {
+    width: 300px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hide default scrollbar */
+  .scroll-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  

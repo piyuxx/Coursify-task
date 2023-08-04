@@ -1,0 +1,33 @@
+/* ReverseDemoComponent.css */
+.reverse-container {
+  display: flex;
+  background-color: burlywood;
+
+  padding: 20px;
+  margin:90px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  height:600px;
+  }
+  
+  .reverse-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    max-width: 900px;
+  }
+  
+
+  
+  .reverse-content {
+    flex: 1;
+    color: white;
+   
+  }
+
+  .lol {
+    max-width: 800px;
+    border-radius: 10px;
+  }

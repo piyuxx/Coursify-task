@@ -1,0 +1,43 @@
+/* DemoComponent.css */
+.container {
+    display: flex;
+    background-color: #13293d;
+    gap: 20px;
+    padding: 20px;
+    margin:90px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+  }
+  
+  .content {
+    flex: 1;
+    color: white;
+    margin-left: 30px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  

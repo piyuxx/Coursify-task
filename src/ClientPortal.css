@@ -1,0 +1,60 @@
+.client-portal {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .client-portal-title {
+    color: orange;
+    font-size: 14px;
+    font: 1em sans-serif;
+  }
+  
+  .main-heading {
+    color: #13293d;
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  .underline {
+    width: 10px;
+    height: 2px;
+    background-color: orange;
+    margin: 10px auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .text-with-icon {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+  }
+  
+  .icon {
+    font-size: 10px;
+    margin-right: 5px;
+  }
+  
+  .text {
+    color: #13293d;
+  }
+  
+  .branded-link {
+    color: #13293d;
+    margin-top: 20px;
+  }
+  
+  .book-demo-button {
+    background-color: #13293d;
+    color: #ffffff;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  

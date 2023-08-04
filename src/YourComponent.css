@@ -1,0 +1,61 @@
+/* YourComponent.css */
+.containers {
+    background-color: #007bff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    padding-bottom: 30px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .motivational-quote {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    margin-top: 30px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #003a80;
+  }
+  
