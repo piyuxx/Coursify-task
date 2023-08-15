@@ -11,7 +11,7 @@ const JobsSlider = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         swipeToSlide: true,
-        responsive: [
+        responsive: [ /* for different screen sizes */
             {
                 settings: {
                     slidesToShow: 1,
