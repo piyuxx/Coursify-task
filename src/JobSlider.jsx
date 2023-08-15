@@ -70,6 +70,7 @@ const JobsSlider = () => {
             {sliderCards.map((card) => (
                 <div key={card.key}>
                     <div data-aos="fade-left" data-aos-duration="1200" className="flex m-auto   w-auto">
+                        /* fade in while moving from the left side of the viewport*/
                         <div >
                             <div className="flex space-x-5  p-6">
                                 <JobCard
