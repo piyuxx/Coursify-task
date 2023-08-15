@@ -13,7 +13,7 @@ const JobCard = ({ position, role, location, salary }) => {
         padding: '16px',
         width: '300px',
         boxShadow: hovered ? '0px 4px 10px rgba(0, 0, 0, 0.1)' : 'none',
-        transition: 'background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out',
+        transition: 'background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out',/* for slow transition */
     };
 
     const detailsStyle = {
