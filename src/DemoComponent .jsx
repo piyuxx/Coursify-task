@@ -10,7 +10,7 @@ const DemoComponent = () => {
                 <button>Book a Demo</button>
             </div>
             <div className="image-container">
-                {/* Replace 'your-image-url.jpg' with the actual image URL */}
+             
                 <img src="demo.png" alt="Demo" />
 
             </div>
